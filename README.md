@@ -34,7 +34,7 @@ Para probar la declaración, es necesario realizar el entreamiento de un modelo 
 se escogio una arquitectura con una capa de entreada de 3072, que corresponde a como se organizaron los datos, dos capas ocualtas,
 cada una con 128 neuronas y una capa de salida de 10 neuronas, que corresponden a las 10 clases existentes en el dataset.
 
-![Arquitectura de red](/imagenes/arc.png)
+![Arquitectura de red](/arc.png)
 
 Para la inicialización de los pesos de cada capa, se implemento la inicialización por defecto de Keras, este [link](https://keras.io/api/layers/initializers/)
 podemos revisar la documentación sobre la inicialización de pesos. Desde la documentación podemos observar que por defecto
